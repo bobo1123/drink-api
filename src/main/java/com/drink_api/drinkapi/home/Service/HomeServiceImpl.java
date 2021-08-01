@@ -1,0 +1,15 @@
+package com.drink_api.drinkapi.home.Service;
+
+import com.drink_api.drinkapi.home.Service.HomeService;
+import com.drink_api.drinkapi.home.DAO.HomeDAO;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class HomeServiceImpl implements HomeService {
+
+    @Autowired
+    private HomeDAO homeDAO;
+
+
+}
